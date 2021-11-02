@@ -1,0 +1,28 @@
+body{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.nav-center{
+    display: flex;
+    flex-direction:row;
+
+}
+
+.container{
+    display: block;
+    
+    background-color: black;
+    color: antiquewhite;
+    width:100%;
+    
+}
+
+ul{
+    display:flex;
+    flex-direction:row;
+    gap: 20px;
+}
