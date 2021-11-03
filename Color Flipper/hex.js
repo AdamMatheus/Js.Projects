@@ -7,13 +7,15 @@ const color=document.querySelector(".color");
 
 btn.addEventListener("click",function(){
 let hexColor="#";
+let hexButton="#";
 for (let i=0; i<6;i++){
-    hexColor += hex[getRandomNumber()]
+    hexColor += hex[getRandomNumber()];
+    hexButton+= hex[getRandomNumber()];
 }
 color.textContent=hexColor;
 
 document.body.style.backgroundColor=hexColor;
-document.body.main.button.style.color=hexColor;
+btn.style.backgroundColor=hexButton;
 });
 
 
